@@ -1,0 +1,98 @@
+/* =========================
+   General Page Styles
+========================= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* =========================
+   Navigation Bar
+========================= */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0077cc;
+  color: white;
+  padding: 15px 20px;
+}
+
+.logo {
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* =========================
+   Hero Section
+========================= */
+.hero {
+  background: #e0f0ff;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 3px solid #0077cc; /* Box Model: border */
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;   /* Box Model: padding */
+  margin-top: 15px;     /* Box Model: margin */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+/* =========================
+   Main Content
+========================= */
+.container {
+  max-width: 900px;
+  margin: 20px auto;     /* Box Model: margin */
+  padding: 10px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ccc;   /* Box Model: border */
+  margin-bottom: 20px;      /* Box Model: margin */
+  padding: 20px;            /* Box Model: padding */
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   Footer
+========================= */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
